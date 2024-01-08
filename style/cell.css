@@ -1,0 +1,43 @@
+@media screen and (max-width: 600px) {
+    #menu-h ul {
+        text-align: center;
+    }
+
+    #menu-h ul li {
+        display: block;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+
+    #menu-h ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    .modo-claro-escuro {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #modo-claro-escuro-btn {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fotoetexto {
+        flex-direction: column;
+        padding: 25px;
+        align-items: center;
+    }
+
+    .textodafoto {
+        width: 100%;
+        margin: 15px 0; 
+    }
+
+    .fotovini {
+        margin-top: 15px;
+    }
+}
