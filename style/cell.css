@@ -41,3 +41,27 @@
         margin-top: 15px;
     }
 }
+
+                                        /*Pagina de fotografia*/
+@media screen and (max-width: 600px) {
+    
+.fotologoinsta {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fotologo {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.fotologoinsta h1 {
+    margin-left: 25px; /* Em vez de padding-left, use margin-left para espaçamento entre a logo e o título */
+    font-size: 30px;
+}
+}
