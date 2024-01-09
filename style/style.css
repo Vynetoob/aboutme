@@ -120,3 +120,67 @@ body.dark-mode button {
     margin-left: 50px; /* Em vez de padding-left, use margin-left para espaçamento entre a logo e o título */
     font-size: 50px;
 }
+
+.fotocopotexto{
+    width: 100%;
+    padding: 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fotocopotexto p {
+    width: 350px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.fotocopo {
+    border-radius: 5%;
+    height: 405px;
+}
+
+.textonikon{
+    width: 100%;
+    padding: 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.textonikon p {
+    width: 600px;
+    font-size: 20px;
+}
+
+.fotostiradapelanikon{
+    width: 100%;
+    padding: 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background-color: #3a3a3a;
+}
+
+.fotostiradapelanikon img{
+    box-shadow: 0px 0px 10px rgb(158, 158, 158);
+    border-radius: 5%;
+}
+
+.canont6{
+    width: 100%;
+    margin: 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.canont6 p {
+    width: 600px;
+    font-size: 20px;
+
+}

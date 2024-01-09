@@ -64,4 +64,33 @@
     margin-left: 25px; /* Em vez de padding-left, use margin-left para espaçamento entre a logo e o título */
     font-size: 30px;
 }
+
+.fotocopotexto{
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
 }
+
+.fotocopotexto p {
+    margin-right: 0px;
+    font-size: 18px;
+}
+
+.textonikon{
+    padding: 0px 0pc 25px;
+}
+
+.textonikon p {
+    width: 350px;
+    font-size: 18px;
+}
+
+.fotostiradapelanikon{
+    display: grid;
+}
+
+
+.canont6 p {
+    width: 350px;
+    font-size: 18px;
+}}
