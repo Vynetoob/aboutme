@@ -4,3 +4,4 @@ const body = document.body;
 modoClaroEscuroBtn.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
 });
+

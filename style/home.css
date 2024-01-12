@@ -1,0 +1,52 @@
+/*Pagina home*/
+
+.titulonome{
+    text-align: center;
+    margin: 15px 30px ;
+    padding: 15px 15px;
+}
+
+.titulofotografia{
+    text-align: left;
+    margin: 15px 30px ;
+    padding: 15px 15px;
+    padding-left: 50px;
+}
+
+.fotoetexto{
+    display: flex;
+    text-align: left;
+    padding: 25px 150px;
+    justify-content: center;
+    overflow-x: hidden;
+    
+}
+
+.textodafoto{
+    width: 500px;
+    margin: 15px; 
+    text-align: justify; 
+    text-indent:1em
+}
+
+.fotovini{
+    border: 2px solid black; 
+    border-radius: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .fotoetexto {
+        flex-direction: column;
+        padding: 25px;
+        align-items: center;
+    }
+
+    .textodafoto {
+        width: 100%;
+        margin: 15px 0; 
+    }
+
+    .fotovini {
+        margin-top: 15px;
+    }
+}

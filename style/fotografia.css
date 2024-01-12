@@ -1,0 +1,174 @@
+/*Pagina de fotografia*/
+
+.fotologoinsta {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fotologo {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #100;
+}
+
+.fotologoinsta h1 {
+    margin-left: 50px; /* Em vez de padding-left, use margin-left para espaçamento entre a logo e o título */
+    font-size: 50px;
+}
+
+.fotocopotexto{
+    width: 100%;
+    padding: 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-indent:1em
+}
+
+.fotocopotexto p {
+    width: 350px;
+    margin-right: 50px;
+    font-size: 20px;
+    word-spacing: -2px;
+}
+
+.fotocopo {
+    border-radius: 5%;
+    height: 405px;
+}
+
+.textonikon{
+    width: 100%;
+    padding: 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-indent:1em
+}
+
+.textonikon p {
+    width: 600px;
+    font-size: 20px;
+    word-spacing: -2px;
+}
+
+.fotosnikon{
+    width: 100%;
+    padding: 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background-color: #3a3a3a;
+}
+
+.fotosnikon img{
+    box-shadow: 0px 0px 10px rgb(158, 158, 158);
+    border-radius: 5%;
+}
+
+.canont6{
+    width: 100%;
+    margin: 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-indent:1em
+}
+
+.canont6 p {
+    width: 470px;
+    font-size: 20px;
+    margin-right: 25px;
+    word-spacing: -2px;
+}
+
+.canont6 img {
+    width: 224px;
+    box-shadow: 0px 0px 10px #100;
+    border-radius: 5%;
+}
+
+.fotostiradacanont6{
+    width: 100%;
+    padding: 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background-color: #3a3a3a;
+}
+
+.fotostiradacanont6 img{
+    box-shadow: 0px 0px 10px rgb(158, 158, 158);
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .fotologoinsta {
+        width: 100%;
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .fotologo {
+        width: 150px;
+        border-radius: 50%;
+    }
+    
+    .fotologoinsta h1 {
+        margin-left: 25px; /* Em vez de padding-left, use margin-left para espaçamento entre a logo e o título */
+        font-size: 30px;
+    }
+    
+    .fotocopotexto{
+        flex-direction: column;
+        gap: 25px;
+        padding: 25px;
+    }
+    
+    .fotocopotexto p {
+        margin-right: 0px;
+        font-size: 18px;
+    }
+    
+    .textonikon{
+        padding: 0px 0pc 25px;
+    }
+    
+    .textonikon p {
+        width: 350px;
+        font-size: 18px;
+    }
+    
+    .fotosnikon{
+        display: grid;
+    }
+    
+    .fotostiradacanont6{
+        display: grid;
+    }
+    
+    .canont6{
+        flex-direction: column;
+        gap: 25px;
+        padding: 25px;
+    }
+    
+    .canont6 p {
+        width: 350px;
+        font-size: 18px;
+    }}
